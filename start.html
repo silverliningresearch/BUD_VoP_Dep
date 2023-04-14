@@ -9,7 +9,10 @@
     <script src="scripts/PrepareData.js"></script>
 		<script src="scripts/CalculateData.js"></script>
     <script src="scripts/flight_search.js"></script>
+    <script src="scripts/CalculateDataArrival.js"></script>
+
     <script type="text/javascript" src="https://silverliningresearch.github.io/daily_plan_data_alc/BUD_QSM_Dep/data/interview_data.js"></script> 
+    <script type="text/javascript" src="https://silverliningresearch.github.io/daily_plan_data_alc/BUD_QSM_Dep/data/interview_data_arr.js"></script> 
     
     <link href="css/styles.css" rel ="stylesheet" type="text/css" />
     <style>
@@ -65,6 +68,7 @@
 
       function drawTable() {
         CalculateAirportAirLineReport();
+        CalculateArrival();
         var data = new google.visualization.DataTable();
 
         data.addColumn('string', 'Time');
@@ -147,10 +151,19 @@
         //document.getElementById("filter_div").style.display = "none";
         dashboard.draw(view);
 
-         //overall_status
-        var overall_status =  "Total quota: " + total_quota;
+        //Update time info
+        document.getElementById("download_time").innerHTML = "Data updated at: " + download_time;
+
+        //overall_arrival_status
+        var overall_arrival_status =  "VoP Arrival: " + "Total quota: " + total_arrival_quota;
+        overall_arrival_status += " - Total completed: " + total_arrival_completed;
+        overall_arrival_status +=  " (" + total_arrival_completed_percent +  "%)";
+        document.getElementById("overall_arrival_status").innerHTML =overall_arrival_status;
+
+        //overall_status
+        var overall_status = "VoP Departures: " +  "Total quota: " + total_quota;
         overall_status += " - Total completed: " + total_completed + " (" + total_completed_percent + "%)";
-        document.getElementById("overall_status").innerHTML =overall_status + " | " + "Data updated at " + download_time;
+        document.getElementById("overall_status").innerHTML =overall_status;
      }
     
       function start_new_interview() {
@@ -199,7 +212,8 @@
     <div style="background-color:#efcb65">
       </br>
     </div>
-    
+    <h5 id="download_time"></h5>
+    <h4 id="overall_arrival_status"></h4>
     <h4 id="overall_status"></h4>
 
     <div id="dashboard_div">
