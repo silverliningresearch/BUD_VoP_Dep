@@ -66,6 +66,7 @@ function CalculateAirportAirLineReport() {
       if (row.Airport_Airline.toUpperCase() == quota_data[j].Airport_Airline.toUpperCase()) 
       {
         if ( quota_data[j].Difference < 0) {
+          row.remaining_flights = quota_data[j].remaining_flights;
           row.Completed = quota_data[j].Completed;
           row.Completed_percent = quota_data[j].Completed_percent;
           row.Difference = quota_data[j].Difference;
@@ -127,9 +128,9 @@ function isNotThePastDate(date) //"07-02-2023"
 }
 
 function CalculateDOOP() {
-  for (i = 0; i < daily_plan_data.length; i++) {
-    daily_plan_data[i].doop = " ";
-    daily_plan_data[i].remaining_flights = 0;
+  for (i = 0; i < quota_data.length; i++) {
+    quota_data[i].doop = " ";
+    quota_data[i].remaining_flights = 0;
     var mon =0;
     var tue =0;
     var wed =0;
@@ -140,7 +141,7 @@ function CalculateDOOP() {
 
     var remaining_flights = 0;
     for (j = 0; j < this_month_flight_list.length; j++) {
-      if (daily_plan_data[i].Flight.toUpperCase() == this_month_flight_list[j].Flight.toUpperCase()) 
+      if (quota_data[i].Airport_Airline.toUpperCase() == this_month_flight_list[j].Airport_Airline.toUpperCase()) 
       {
         //get remaining_flights
         if (isNotThePastDate(this_month_flight_list[j].Date)) {
@@ -174,7 +175,7 @@ function CalculateDOOP() {
         }
       }
     }
-    daily_plan_data[i].doop =[mon, tue, wed, thu, fri, sat, sun].join('');
-    daily_plan_data[i].remaining_flights = remaining_flights;
+    quota_data[i].doop =[mon, tue, wed, thu, fri, sat, sun].join('');
+    quota_data[i].remaining_flights = remaining_flights;
   }
 }									 
