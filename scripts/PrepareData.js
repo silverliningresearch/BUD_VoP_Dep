@@ -95,13 +95,26 @@ function isvalid_id(id)
 }
 
 function prepareInterviewData() {
-  quota_data = JSON.parse(airport_airline_quota);
   removed_ids_data = JSON.parse(removed_ids);
 
+  var quota_data_temp = JSON.parse(airport_airline_quota);
   var interview_data_full  = JSON.parse(interview_data_raw);
   var flight_list_full  = JSON.parse(BUD_Flight_List_Raw);
 
-  initCurrentTimeVars();						
+  initCurrentTimeVars();	
+  
+  //get quota data
+  quota_data = [];
+  quota_data.length = 0;
+  for (i = 0; i < quota_data_temp.length; i++) {
+    //var quota_month =  quota_data_temp[i].Month + "-"  + quota_data_temp[i].Year; 
+    //if (quota_month== currentMonth)
+    if (quota_data_temp[i].Quota>0)
+    {
+      quota_data.push(quota_data_temp[i]);
+    }
+  }
+    
   //get relevant interview data
   //empty the list
   interview_data = [];
