@@ -28,12 +28,10 @@ function CalculateAirportAirLineReport() {
   console.log("not_in_quota_list: ", not_in_quota_list);
 
 
-  total_quota = 0;
   for (i = 0; i < quota_data.length; i++) {//airport_airline_report.length;
     row = quota_data[i];
     row.Completed = 0;
 
-    total_quota = total_quota + parseInt(row.Quota);
     for (j = 0; j < interview_data.length; j++) {
       if (row.Airport_Airline.toUpperCase() == interview_data[j].Airport_Airline.toUpperCase()) 
       { 

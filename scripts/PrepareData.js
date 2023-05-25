@@ -7,7 +7,8 @@ var removed_ids_data;
 
 var currentDate; //dd-mm-yyyy
 var currentMonth; //mm
-var currentQuarter; //1, 2, 3, 4
+var currentYear; //yyyy
+var currentQuarter; //2023-Q1, 2023-Q2
 var nextDate; //dd-mm-yyyy
 
 var download_time;
@@ -30,8 +31,9 @@ function initCurrentTimeVars() {
   if (day.length < 2) day = '0' + day;
 
   currentDate = [day, month, year].join('-');
+  currentYear = year;
   currentMonth = month; //[month, year].join('-');;
-  currentQuarter = getQuarterFromMonth(currentMonth);
+  currentQuarter = getQuarterFromMonth(currentMonth, currentYear);
 
   //////////
   var tomorrow = new Date();
@@ -45,26 +47,53 @@ function initCurrentTimeVars() {
 
   nextDate  = [tomorrowDay, tomorrowMonth, tomorrowYear].join('-');
   //////////
+  if (document.getElementById('year_month') && document.getElementById('year_month').value.length > 0)
+  {
+    if (document.getElementById('year_month').value != "current-quarter")
+    {
+      currentQuarter = document.getElementById('year_month').value;
+    }
+  }
+  
+  switch(currentQuarter) {
+    case "2023-Q2":
+      total_arrival_quota = 250;
+      total_quota = 500;
+      break;
+    case "2023-Q3":
+      total_arrival_quota = 250;
+      total_quota = 500;
+      break;
+    case "2023-Q4":
+      total_arrival_quota = 250;
+      total_quota = 500;
+      break;      
+    default:
+      total_quota = 1;  
+      total_arrival_quota = 1;
+      break;
+  }
 }
 
-function getQuarterFromMonth(month)
+
+function getQuarterFromMonth(month, year)
 {
-  //Input: mm
+  //Input: mm, yyyy
   var quarter = 0;
   
   if ((month == '01') || (month == '02') || (month == '03')) {
-    quarter = 1;  
+    quarter = "Q1";  
   }
   else if ((month == '04') || (month == '05') || (month == '06')) {
-    quarter = 2;  
+    quarter = "Q2";  
   }
   else if ((month == '07') || (month == '08') || (month == '09')) {
-    quarter = 3;  
+    quarter = "Q3";  
   }
   else if ((month == '10') || (month == '11') || (month == '12')) {
-    quarter = 4;  
+    quarter = "Q4";  
   }
-  return quarter;
+  return (year + "-" + quarter);
 }
 
 function notDeparted(flight_time) {
@@ -107,9 +136,7 @@ function prepareInterviewData() {
   quota_data = [];
   quota_data.length = 0;
   for (i = 0; i < quota_data_temp.length; i++) {
-    //var quota_month =  quota_data_temp[i].Month + "-"  + quota_data_temp[i].Year; 
-    //if (quota_month== currentMonth)
-    if (quota_data_temp[i].Quota>0)
+    //if (quota_data_temp[i].Quarter == currentQuarter)
     {
       quota_data.push(quota_data_temp[i]);
     }
@@ -124,9 +151,7 @@ function prepareInterviewData() {
   for (i = 0; i < interview_data_full.length; i++) {
     var interview = interview_data_full[i];
 
-
-    var interview_month = interview["InterviewEndDate"].substring(5,7);//"2023-04-03 06:18:18"
-    var interview_quarter = getQuarterFromMonth(interview_month);
+    var interview_quarter = getQuarterFromMonth(interview["InterviewEndDate"].substring(5,7), interview["InterviewEndDate"].substring(0,4));
     
     if ((interview.InterviewState == "Complete") 
       //&& (currentMonth == interview_month)  
@@ -185,7 +210,7 @@ function prepareInterviewData() {
     
     //currentMonth: 02-2023
     //flight.Date: 08-02-2023
-    if (currentQuarter ==  getQuarterFromMonth(flight.Date.substring(3,5))) { 
+    if (currentQuarter == getQuarterFromMonth(flight.Date.substring(3,5), flight.Date.substring(6,10))) { 
       this_month_flight_list.push(flight);
     }		   
   }
