@@ -46,6 +46,7 @@ function initCurrentTimeVars() {
   if (tomorrowDay.length < 2) tomorrowDay = '0' + tomorrowDay;
 
   nextDate  = [tomorrowDay, tomorrowMonth, tomorrowYear].join('-');
+  
   //////////
   if (document.getElementById('year_month') && document.getElementById('year_month').value.length > 0)
   {
