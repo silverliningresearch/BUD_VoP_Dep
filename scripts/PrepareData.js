@@ -58,15 +58,15 @@ function initCurrentTimeVars() {
   
   switch(currentQuarter) {
     case "2023-Q2":
-      total_arrival_quota = 250;
+      total_arrival_quota = 300;
       total_quota = 900;
       break;
     case "2023-Q3":
-      total_arrival_quota = 250;
+      total_arrival_quota = 300;
       total_quota = 900;
       break;
     case "2023-Q4":
-      total_arrival_quota = 250;
+      total_arrival_quota = 300;
       total_quota = 900;
       break;      
     default:
