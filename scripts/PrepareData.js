@@ -18,7 +18,7 @@ var total_completed_percent;
 var total_quota_completed;
 var total_hard_quota;
 var total_quota;
-
+var total_arrival_quota;
 /************************************/
 function initCurrentTimeVars() {
   var today = new Date();
@@ -63,11 +63,11 @@ function initCurrentTimeVars() {
       break;
     case "2023-Q3":
       total_arrival_quota = 250;
-      total_quota = 1201;
+      total_quota = 900;
       break;
     case "2023-Q4":
       total_arrival_quota = 250;
-      total_quota = 500;
+      total_quota = 900;
       break;      
     default:
       total_quota = 1;  
