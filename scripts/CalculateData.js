@@ -120,7 +120,7 @@ function isNotThePastDate(date) //"07-02-2023"
   var flight_day = parseInt(parts[0]);
   var Month = parseInt(parts[1]);
   
-  var result = ((flight_day >= current_day_of_month) || (Month>current_month));
+  var result = (((flight_day >= current_day_of_month) && (Month==current_month)) || (Month>current_month));
 
   return (result);
 }
