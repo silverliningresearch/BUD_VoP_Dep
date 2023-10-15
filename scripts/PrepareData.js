@@ -202,11 +202,11 @@ function prepareInterviewData() {
 
     //only get today & not departed flight
     if (((currentDate ==flight.Date) && notDeparted(flight.Time))
-        //|| (nextDate ==flight.Date)
+        || (nextDate ==flight.Date)
         ) 
     { 
-      //flight.Date_Time = flight.Date + " " + flight.Time;
-      flight.Date_Time = flight.Time;
+      flight.Date_Time = flight.Date.substring(6,10) + "-" +  flight.Date.substring(3,5) + "-" + flight.Date.substring(0,2) + " " + flight.Time;
+      //flight.Date_Time = flight.Time;
       today_flight_list.push(flight);
     }
     
