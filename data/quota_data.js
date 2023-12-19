@@ -1027,50 +1027,53 @@
         "Quota": 17
     },
 
+    
+    
+
     {
         "Airport_Airline": "AGP-FR",
         "Quarter": "2024-Q1",
-        "Quota": 7.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "ALC-FR",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "AGP-W6",
         "Quarter": "2024-Q1",
-        "Quota": 6.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "ALC-W6",
         "Quarter": "2024-Q1",
-        "Quota": 10.0
+        "Quota": 7.0
     },
     {
         "Airport_Airline": "MLA-FR",
         "Quarter": "2024-Q1",
-        "Quota": 5.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "PFO-FR",
         "Quarter": "2024-Q1",
-        "Quota": 7.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "FNC-W6",
         "Quarter": "2024-Q1",
-        "Quota": 5.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "LCA-W6",
         "Quarter": "2024-Q1",
-        "Quota": 7.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "MLA-W6",
         "Quarter": "2024-Q1",
-        "Quota": 5.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "ACE-FR",
@@ -1080,42 +1083,42 @@
     {
         "Airport_Airline": "LPA-FR",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "TFS-FR",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "TFS-W6",
         "Quarter": "2024-Q1",
-        "Quota": 7.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "TLV-6H",
         "Quarter": "2024-Q1",
-        "Quota": 5.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "ATH-A3",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "CDG-AF",
         "Quarter": "2024-Q1",
-        "Quota": 21.0
+        "Quota": 16.0
     },
     {
         "Airport_Airline": "HEL-AY",
         "Quarter": "2024-Q1",
-        "Quota": 9.0
+        "Quota": 7.0
     },
     {
         "Airport_Airline": "LHR-BA",
         "Quarter": "2024-Q1",
-        "Quota": 22.0
+        "Quota": 16.0
     },
     {
         "Airport_Airline": "RIX-BT",
@@ -1125,7 +1128,7 @@
     {
         "Airport_Airline": "TLV-BZ",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "CKG-CA",
@@ -1135,52 +1138,52 @@
     {
         "Airport_Airline": "PEK-CA",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "CPH-DY",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "OSL-DY",
         "Quarter": "2024-Q1",
-        "Quota": 6.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "BSL-EC",
         "Quarter": "2024-Q1",
-        "Quota": 13.0
+        "Quota": 10.0
     },
     {
         "Airport_Airline": "GVA-EC",
         "Quarter": "2024-Q1",
-        "Quota": 5.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "LGW-EC",
         "Quarter": "2024-Q1",
-        "Quota": 7.0
+        "Quota": 6.0
     },
     {
         "Airport_Airline": "DUB-EI",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "DXB-EK",
         "Quarter": "2024-Q1",
-        "Quota": 19.0
+        "Quota": 14.0
     },
     {
         "Airport_Airline": "CGN-EW",
         "Quarter": "2024-Q1",
-        "Quota": 2.0
+        "Quota": 1.0
     },
     {
         "Airport_Airline": "DUS-EW",
         "Quarter": "2024-Q1",
-        "Quota": 11.0
+        "Quota": 8.0
     },
     {
         "Airport_Airline": "HAM-EW",
@@ -1190,202 +1193,202 @@
     {
         "Airport_Airline": "STR-EW",
         "Quarter": "2024-Q1",
-        "Quota": 11.0
+        "Quota": 9.0
     },
     {
         "Airport_Airline": "NGB-FM",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "PVG-FM",
         "Quarter": "2024-Q1",
-        "Quota": 6.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "AMM-FR",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "ARN-FR",
         "Quarter": "2024-Q1",
-        "Quota": 7.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "ATH-FR",
         "Quarter": "2024-Q1",
-        "Quota": 7.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "BCN-FR",
         "Quarter": "2024-Q1",
-        "Quota": 13.0
+        "Quota": 10.0
     },
     {
         "Airport_Airline": "BER-FR",
         "Quarter": "2024-Q1",
-        "Quota": 11.0
+        "Quota": 8.0
     },
     {
         "Airport_Airline": "BFS-FR",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "BGY-FR",
         "Quarter": "2024-Q1",
-        "Quota": 18.0
+        "Quota": 13.0
     },
     {
         "Airport_Airline": "BHX-FR",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "BLL-FR",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "BLQ-FR",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "BRI-FR",
         "Quarter": "2024-Q1",
-        "Quota": 7.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "BRS-FR",
         "Quarter": "2024-Q1",
-        "Quota": 6.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "BVA-FR",
         "Quarter": "2024-Q1",
-        "Quota": 9.0
+        "Quota": 6.0
     },
     {
         "Airport_Airline": "CAG-FR",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "CIA-FR",
         "Quarter": "2024-Q1",
-        "Quota": 14.0
+        "Quota": 11.0
     },
     {
         "Airport_Airline": "CPH-FR",
         "Quarter": "2024-Q1",
-        "Quota": 10.0
+        "Quota": 8.0
     },
     {
         "Airport_Airline": "CRL-FR",
         "Quarter": "2024-Q1",
-        "Quota": 10.0
+        "Quota": 8.0
     },
     {
         "Airport_Airline": "CTA-FR",
         "Quarter": "2024-Q1",
-        "Quota": 10.0
+        "Quota": 7.0
     },
     {
         "Airport_Airline": "DUB-FR",
         "Quarter": "2024-Q1",
-        "Quota": 15.0
+        "Quota": 12.0
     },
     {
         "Airport_Airline": "EDI-FR",
         "Quarter": "2024-Q1",
-        "Quota": 6.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "LIS-FR",
         "Quarter": "2024-Q1",
-        "Quota": 7.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "MAD-FR",
         "Quarter": "2024-Q1",
-        "Quota": 7.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "MAN-FR",
         "Quarter": "2024-Q1",
-        "Quota": 8.0
+        "Quota": 6.0
     },
     {
         "Airport_Airline": "MRS-FR",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "NAP-FR",
         "Quarter": "2024-Q1",
-        "Quota": 7.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "NUE-FR",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "OPO-FR",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "PMO-FR",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "PRG-FR",
         "Quarter": "2024-Q1",
-        "Quota": 6.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "PSA-FR",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "SKG-FR",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "SNN-FR",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "SOF-FR",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "STN-FR",
         "Quarter": "2024-Q1",
-        "Quota": 40.0
+        "Quota": 30.0
     },
     {
         "Airport_Airline": "SVQ-FR",
         "Quarter": "2024-Q1",
-        "Quota": 6.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "TLV-FR",
         "Quarter": "2024-Q1",
-        "Quota": 13.0
+        "Quota": 10.0
     },
     {
         "Airport_Airline": "TSF-FR",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "VLC-FR",
@@ -1395,317 +1398,317 @@
     {
         "Airport_Airline": "WMI-FR",
         "Quarter": "2024-Q1",
-        "Quota": 5.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "DXB-FZ",
         "Quarter": "2024-Q1",
-        "Quota": 9.0
+        "Quota": 6.0
     },
     {
         "Airport_Airline": "MAD-IB",
         "Quarter": "2024-Q1",
-        "Quota": 9.0
+        "Quota": 7.0
     },
     {
         "Airport_Airline": "BEG-JU",
         "Quarter": "2024-Q1",
-        "Quota": 9.0
+        "Quota": 7.0
     },
     {
         "Airport_Airline": "ICN-KE",
         "Quarter": "2024-Q1",
-        "Quota": 6.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "AMS-KL",
         "Quarter": "2024-Q1",
-        "Quota": 30.0
+        "Quota": 23.0
     },
     {
         "Airport_Airline": "LUX-LG",
         "Quarter": "2024-Q1",
-        "Quota": 2.0
+        "Quota": 1.0
     },
     {
         "Airport_Airline": "FRA-LH",
         "Quarter": "2024-Q1",
-        "Quota": 41.0
+        "Quota": 31.0
     },
     {
         "Airport_Airline": "MUC-LH",
         "Quarter": "2024-Q1",
-        "Quota": 26.0
+        "Quota": 20.0
     },
     {
         "Airport_Airline": "ICN-LO",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "WAW-LO",
         "Quarter": "2024-Q1",
-        "Quota": 16.0
+        "Quota": 12.0
     },
     {
         "Airport_Airline": "BHX-LS",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "LBA-LS",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "MAN-LS",
         "Quarter": "2024-Q1",
-        "Quota": 5.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "ZRH-LX",
         "Quarter": "2024-Q1",
-        "Quota": 20.0
+        "Quota": 15.0
     },
     {
         "Airport_Airline": "TLV-LY",
         "Quarter": "2024-Q1",
-        "Quota": 9.0
+        "Quota": 6.0
     },
     {
         "Airport_Airline": "CAI-MS",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "VIE-OS",
         "Quarter": "2024-Q1",
-        "Quota": 14.0
+        "Quota": 11.0
     },
     {
         "Airport_Airline": "SAW-PC",
         "Quarter": "2024-Q1",
-        "Quota": 13.0
+        "Quota": 10.0
     },
     {
         "Airport_Airline": "DOH-QR",
         "Quarter": "2024-Q1",
-        "Quota": 7.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "OTP-RO",
         "Quarter": "2024-Q1",
-        "Quota": 6.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "HRG-SM",
         "Quarter": "2024-Q1",
-        "Quota": 2.0
+        "Quota": 1.0
     },
     {
         "Airport_Airline": "BRU-SN",
         "Quarter": "2024-Q1",
-        "Quota": 11.0
+        "Quota": 8.0
     },
     {
         "Airport_Airline": "IST-TK",
         "Quarter": "2024-Q1",
-        "Quota": 24.0
+        "Quota": 18.0
     },
     {
         "Airport_Airline": "SAW-TK",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "AMM-W6",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "ATH-W6",
         "Quarter": "2024-Q1",
-        "Quota": 7.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "AUH-W6",
         "Quarter": "2024-Q1",
-        "Quota": 9.0
+        "Quota": 7.0
     },
     {
         "Airport_Airline": "BCN-W6",
         "Quarter": "2024-Q1",
-        "Quota": 24.0
+        "Quota": 18.0
     },
     {
         "Airport_Airline": "BER-W6",
         "Quarter": "2024-Q1",
-        "Quota": 16.0
+        "Quota": 12.0
     },
     {
         "Airport_Airline": "BHX-W6",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "BRI-W6",
         "Quarter": "2024-Q1",
-        "Quota": 12.0
+        "Quota": 9.0
     },
     {
         "Airport_Airline": "BSL-W6",
         "Quarter": "2024-Q1",
-        "Quota": 12.0
+        "Quota": 9.0
     },
     {
         "Airport_Airline": "CPH-W6",
         "Quarter": "2024-Q1",
-        "Quota": 12.0
+        "Quota": 9.0
     },
     {
         "Airport_Airline": "CRL-W6",
         "Quarter": "2024-Q1",
-        "Quota": 12.0
+        "Quota": 9.0
     },
     {
         "Airport_Airline": "CTA-W6",
         "Quarter": "2024-Q1",
-        "Quota": 7.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "DMM-W6",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "DXB-W6",
         "Quarter": "2024-Q1",
-        "Quota": 9.0
+        "Quota": 7.0
     },
     {
         "Airport_Airline": "EIN-W6",
         "Quarter": "2024-Q1",
-        "Quota": 20.0
+        "Quota": 15.0
     },
     {
         "Airport_Airline": "FCO-W6",
         "Quarter": "2024-Q1",
-        "Quota": 19.0
+        "Quota": 14.0
     },
     {
         "Airport_Airline": "GLA-W6",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "GYD-W6",
         "Quarter": "2024-Q1",
-        "Quota": 5.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "HRG-W6",
         "Quarter": "2024-Q1",
-        "Quota": 5.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "IST-W6",
         "Quarter": "2024-Q1",
-        "Quota": 15.0
+        "Quota": 11.0
     },
     {
         "Airport_Airline": "JED-W6",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "KEF-W6",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "KUT-W6",
         "Quarter": "2024-Q1",
-        "Quota": 5.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "LGW-W6",
         "Quarter": "2024-Q1",
-        "Quota": 9.0
+        "Quota": 7.0
     },
     {
         "Airport_Airline": "LIS-W6",
         "Quarter": "2024-Q1",
-        "Quota": 9.0
+        "Quota": 7.0
     },
     {
         "Airport_Airline": "LPL-W6",
         "Quarter": "2024-Q1",
-        "Quota": 5.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "LTN-W6",
         "Quarter": "2024-Q1",
-        "Quota": 34.0
+        "Quota": 25.0
     },
     {
         "Airport_Airline": "MAD-W6",
         "Quarter": "2024-Q1",
-        "Quota": 16.0
+        "Quota": 12.0
     },
     {
         "Airport_Airline": "MXP-W6",
         "Quarter": "2024-Q1",
-        "Quota": 23.0
+        "Quota": 17.0
     },
     {
         "Airport_Airline": "NAP-W6",
         "Quarter": "2024-Q1",
-        "Quota": 9.0
+        "Quota": 7.0
     },
     {
         "Airport_Airline": "NCE-W6",
         "Quarter": "2024-Q1",
-        "Quota": 7.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "ORY-W6",
         "Quarter": "2024-Q1",
-        "Quota": 9.0
+        "Quota": 7.0
     },
     {
         "Airport_Airline": "RUH-W6",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "SKG-W6",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "SKP-W6",
         "Quarter": "2024-Q1",
-        "Quota": 3.0
+        "Quota": 2.0
     },
     {
         "Airport_Airline": "SPX-W6",
         "Quarter": "2024-Q1",
-        "Quota": 5.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "SSH-W6",
         "Quarter": "2024-Q1",
-        "Quota": 5.0
+        "Quota": 4.0
     },
     {
         "Airport_Airline": "TGD-W6",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "TGM-W6",
         "Quarter": "2024-Q1",
-        "Quota": 9.0
+        "Quota": 7.0
     },
     {
         "Airport_Airline": "TIA-W6",
@@ -1715,17 +1718,17 @@
     {
         "Airport_Airline": "TLV-W6",
         "Quarter": "2024-Q1",
-        "Quota": 10.0
+        "Quota": 7.0
     },
     {
         "Airport_Airline": "WAW-W6",
         "Quarter": "2024-Q1",
-        "Quota": 12.0
+        "Quota": 9.0
     },
     {
         "Airport_Airline": "AYT-XQ",
         "Quarter": "2024-Q1",
-        "Quota": 4.0
+        "Quota": 3.0
     }
 
        
