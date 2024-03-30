@@ -110,7 +110,7 @@ function CalculateAirportAirLineReport_asq() {
         }
       }
     }  
-
+    
     //Airline 
     row.Airline_Difference = 0;
     row.Airline_Completed_percent = 100;
