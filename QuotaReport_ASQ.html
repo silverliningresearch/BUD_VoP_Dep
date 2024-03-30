@@ -64,6 +64,7 @@
         data.addColumn('number', 'Remaining Flights');
         data.addColumn('number', 'Quota');
         data.addColumn('number', 'Collected');
+        data.addColumn('number', 'Missing');        
 				data.addColumn('number', 'Completion Rate %');
 
         //add data
@@ -82,6 +83,7 @@
             Number(row.remaining_flights),
             Number(row.Quota),
             Number(row.Completed), 
+            Number(row.Difference),             
             Number(row.Completed_percent)
           ]
           ]);
