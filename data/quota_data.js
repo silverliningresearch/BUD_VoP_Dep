@@ -2560,7 +2560,7 @@
 
 
 
-     {
+    {
         "Airport_Airline": "TLV-6H",
         "Quarter": "2024-Q3",
         "Quota": 4.0
@@ -3428,42 +3428,42 @@
     {
         "Airport_Airline": "TFS-W6",
         "Quarter": "2024-Q3",
-        "Quota": 4.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "TGD-W6",
         "Quarter": "2024-Q3",
-        "Quota": 2.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "TGM-W6",
         "Quarter": "2024-Q3",
-        "Quota": 5.0
+        "Quota": 6.0
     },
     {
         "Airport_Airline": "TIA-W6",
         "Quarter": "2024-Q3",
-        "Quota": 5.0
+        "Quota": 6.0
     },
     {
         "Airport_Airline": "TLV-W6",
         "Quarter": "2024-Q3",
-        "Quota": 7.0
+        "Quota": 8.0
     },
     {
         "Airport_Airline": "VLC-W6",
         "Quarter": "2024-Q3",
-        "Quota": 2.0
+        "Quota": 3.0
     },
     {
         "Airport_Airline": "WAW-W6",
         "Quarter": "2024-Q3",
-        "Quota": 7.0
+        "Quota": 8.0
     },
     {
         "Airport_Airline": "ZTH-W6",
         "Quarter": "2024-Q3",
-        "Quota": 4.0
+        "Quota": 5.0
     },
     {
         "Airport_Airline": "AYT-XC",
@@ -3473,7 +3473,7 @@
     {
         "Airport_Airline": "AYT-XQ",
         "Quarter": "2024-Q3",
-        "Quota": 2.0
+        "Quota": 3.0
     }
 
        
