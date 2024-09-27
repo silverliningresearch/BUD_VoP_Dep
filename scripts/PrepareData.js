@@ -72,6 +72,7 @@ function initCurrentTimeVars() {
     case "2024-Q1":
     case "2024-Q2":      
     case "2024-Q3":          
+    case "2024-Q4":              
         total_arrival_quota = 300;
         total_quota = 900;
         break;            
