@@ -135,7 +135,7 @@ function prepareInterviewData() {
   removed_ids_data = JSON.parse(removed_ids);
 
   var quota_data_temp = JSON.parse(airport_airline_quota);
-  var interview_data_full  = JSON.parse(interview_statistics);
+  var interview_data_full  = JSON.parse(interview_data_raw);
   var flight_list_full  = JSON.parse(BUD_Flight_List_Raw);
 
   initCurrentTimeVars();	
@@ -160,11 +160,11 @@ function prepareInterviewData() {
   for (i = 0; i < interview_data_full.length; i++) {
     var interview = interview_data_full[i];
 
-    var interview_quarter = getQuarterFromMonth(interview["Interview_Date"].substring(5,7), interview["Interview_Date"].substring(0,4));
+    var interview_quarter = getQuarterFromMonth(interview["InterviewEndDate"].substring(5,7), interview["InterviewEndDate"].substring(0,4));
     
-    if (// (interview.InterviewState == "Complete") && 
-      // (currentMonth == interview_month)  && 
-      (currentQuarter == interview_quarter)  
+    if ((interview.InterviewState == "Complete") 
+      //&& (currentMonth == interview_month)  
+      && (currentQuarter == interview_quarter)  
       )
     {
       if (interview["Dest"]) {
@@ -173,11 +173,18 @@ function prepareInterviewData() {
         var airline_code = ""
         if (interview["AirlineCode"])  airline_code = interview["AirlineCode"];
 
-        interview.Airport_Airline = airport_code + "-" + airline_code;
-        interview.InterviewEndDate = interview["Interview_Date"] ;
+        var airport_airline = '"Airport_Airline"' + ":" + '"' +  airport_code + "-" + airline_code + '", ';
+        var InterviewEndDate = '"InterviewEndDate"' + ":" + '"' +  interview["InterviewEndDate"] ;
+        var str = '{' + airport_airline + InterviewEndDate + '"}';
 
-        interview_data.push(interview);
-
+        if (isvalid_id(interview["InterviewId"])) //check if valid
+        {
+          interview_data.push(JSON.parse(str));
+        }
+        else
+        {
+          console.log("invalid id: ", interview);
+        }
       }
       else{
         console.log("ignored interview: ", interview);
