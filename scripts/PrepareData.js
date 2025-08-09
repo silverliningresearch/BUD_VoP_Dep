@@ -182,6 +182,51 @@ function prepareInterviewData() {
         interview.Airport_Airline = airport_code + "-" + airline_code;
         interview.InterviewEndDate = interview["Interview_Date"] ;
 
+        //correction for EZS / EC
+        if (currentQuarter == "2025-Q3") 
+        {
+            if ((interview.Airport_Airline == "BSL-EZS") 
+              || (interview.Airport_Airline == "BSL-EJU")
+              || (interview.Airport_Airline == "BSL-EZY"))
+            {
+                interview.Airport_Airline = "BSL-EC";
+            }
+
+            if ((interview.Airport_Airline == "CDG-EZS") 
+              || (interview.Airport_Airline == "CDG-EJU")
+              || (interview.Airport_Airline == "CDG-EZY"))
+            {
+                interview.Airport_Airline = "CDG-EC";
+            }
+
+            if ((interview.Airport_Airline == "GVA-EZS") 
+              || (interview.Airport_Airline == "GVA-EJU")
+              || (interview.Airport_Airline == "GVA-EZY"))
+            {
+                interview.Airport_Airline = "GVA-EC";
+            }
+
+            if ((interview.Airport_Airline == "LGW-EZS") 
+              || (interview.Airport_Airline == "LGW-EJU")
+              || (interview.Airport_Airline == "LGW-EZY"))
+            {
+                interview.Airport_Airline = "LGW-EC";
+            }
+
+          if ((interview.Airport_Airline == "LYS-EZS") 
+              || (interview.Airport_Airline == "LYS-EJU")
+              || (interview.Airport_Airline == "LYS-EZY"))
+            {
+                interview.Airport_Airline = "LYS-EC";
+            }
+
+          if (interview.Airport_Airline == "VCE-W4") 
+          {
+              interview.Airport_Airline = "VCE-W6";
+          }
+
+        }
+
         interview_data.push(interview);
 
       }
