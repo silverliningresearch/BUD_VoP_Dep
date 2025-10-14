@@ -229,6 +229,62 @@ function prepareInterviewData() {
 
         }
 
+              //correction for EZS / EC
+      if (currentQuarter == "2025-Q4") 
+      {
+          if ((interview.Airport_Airline == "BSL-EZS") 
+            || (interview.Airport_Airline == "BSL-EJU")
+            || (interview.Airport_Airline == "BSL-EZY"))
+          {
+              interview.Airport_Airline = "BSL-EC";
+          }
+
+          if ((interview.Airport_Airline == "CDG-EZS") 
+            || (interview.Airport_Airline == "CDG-EJU")
+            || (interview.Airport_Airline == "CDG-EZY"))
+          {
+              interview.Airport_Airline = "CDG-EC";
+          }
+
+          if ((interview.Airport_Airline == "GVA-EZS") 
+            || (interview.Airport_Airline == "GVA-EJU")
+            || (interview.Airport_Airline == "GVA-EZY"))
+          {
+              interview.Airport_Airline = "GVA-EC";
+          }
+
+          if ((interview.Airport_Airline == "LGW-EZS") 
+            || (interview.Airport_Airline == "LGW-EJU")
+            || (interview.Airport_Airline == "LGW-EZY"))
+          {
+              interview.Airport_Airline = "LGW-EC";
+          }
+
+         if ((interview.Airport_Airline == "LYS-EZS") 
+            || (interview.Airport_Airline == "LYS-EJU")
+            || (interview.Airport_Airline == "LYS-EZY"))
+          {
+              interview.Airport_Airline = "LYS-EC";
+          }
+ 
+          if (interview.Airport_Airline == "EDI-RK") 
+          {
+              interview.Airport_Airline = "EDI-FR";
+          }   
+          if (interview.Airport_Airline == "MAN-RK") 
+          {
+              interview.Airport_Airline = "MAN-FR";
+          }           
+          if (interview.Airport_Airline == "STN-RK") 
+          {
+              interview.Airport_Airline = "STN-FR";
+          }  
+          if (interview.Airport_Airline == "BFS-RK") 
+          {
+              interview.Airport_Airline = "BFS-FR";
+          }                          
+      }
+
         interview_data.push(interview);
 
       }
