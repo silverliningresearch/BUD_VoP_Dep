@@ -7214,7 +7214,7 @@
 
 
 
-      {
+    {
         "Airport_Airline": "TLV-6H",
         "Quarter": "2026-Q1",
         "Quota": 10.0
@@ -7355,7 +7355,7 @@
         "Quota": 6.0
     },
     {
-        "Airport_Airline": "BFS-FR",
+        "Airport_Airline": "BFS-RK",
         "Quarter": "2026-Q1",
         "Quota": 2.0
     },
@@ -7930,7 +7930,7 @@
         "Quota": 4.0
     },
     {
-        "Airport_Airline": "MXP-W6",
+        "Airport_Airline": "MXP-W4",
         "Quarter": "2026-Q1",
         "Quota": 8.0
     },
@@ -7940,7 +7940,7 @@
         "Quota": 7.0
     },
     {
-        "Airport_Airline": "NAP-W6",
+        "Airport_Airline": "NAP-W4",
         "Quarter": "2026-Q1",
         "Quota": 7.0
     },
@@ -7960,7 +7960,7 @@
         "Quota": 4.0
     },
     {
-        "Airport_Airline": "RMO-W6",
+        "Airport_Airline": "RMO-W4",
         "Quarter": "2026-Q1",
         "Quota": 2.0
     },
@@ -8015,7 +8015,7 @@
         "Quota": 4.0
     },
     {
-        "Airport_Airline": "VCE-W6",
+        "Airport_Airline": "VCE-W4",
         "Quarter": "2026-Q1",
         "Quota": 3.0
     },
